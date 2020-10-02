@@ -1,0 +1,236 @@
+* {
+  line-height: 180%;
+  word-break: break-all;
+  color: #515151;
+}
+.wrapper {
+  display: block;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+  border-top: solid 8px #6CC6C4;
+  background-color: #51515109;
+}
+header {
+  margin: 20px 260px;
+  height: 200px;
+}
+.header-wrapper {
+  display: flex;
+}
+
+.left-text {
+  width: 76%;
+  padding-top: 5vh;
+}
+
+.right-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-text > p {
+  font-size: 10.01px;
+}
+
+.right-text > h2 {
+  text-align: center;
+  font-size: 25.61px;
+}
+
+.image-02 {
+  height: 25px;
+  width: 20px;
+}
+
+.time {
+  border: 1px solid #5853533b;
+}
+
+.time > p {
+  font-size: 10.01px;
+  padding: 5px 0;
+}
+
+.red  {
+  color: red;
+}
+
+.header > ul {
+  display: flex;
+  text-align: center;
+  font-size: 13.5px;
+  text-shadow: 1px 1px 2px #6CC6C4;
+  padding-top: 5vh;
+}
+
+.header  li {
+  padding: 17px 0 18px;
+  border: 1px solid #99E1DF;
+  width: 12.6vw;
+  color: white;
+  background-color: #6CC6C4;
+  border-right: #71C9C7 solid 1px;
+  border-left: #99E1DF solid 1px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.left {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.right {
+  border-radius: 0px 6px 6px 0px;
+}
+
+main {
+  margin: 20px 260px;
+  display: flex;
+  margin-top: 5vh;
+}
+
+.left-contents {
+  width: 30vw;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.first-content {
+  width: 18vw;
+  border: 1px solid #99E1DF;
+  border-radius: 5px;
+  color: white;
+}
+
+.first-content h3  {
+  height: 30px;
+  background-color: #6CC6C4;
+  padding: 5px 15px 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.first-content > ul {
+  background-color: white;
+  height: 30vh;
+
+}
+
+.first-content li {
+  height: 40px;
+  font-size: 14px;
+  margin: 0px 12px;
+  padding-right: 25px;
+  padding-top: 10px;
+  font-weight: bold;
+  border-bottom: #6CC6C4 solid 1px;
+  color: #6CC6C4;
+}
+
+.first-content a {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.second-content {
+  width: 18vw;
+  border: 1px solid #99E1DF;
+  border-radius: 5px;
+  color: white;
+  margin-top: 3vh;
+}
+
+.second-content h4  {
+  height: 30px;
+  background-color: #6CC6C4;
+  padding: 5px 15px 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.second-content > ul {
+  background-color: white;
+  height: 30vh;
+
+}
+
+.second-content li {
+  height: 40px;
+  font-size: 14px;
+  margin: 0px 12px;
+  padding-right: 25px;
+  padding-top: 10px;
+  font-weight: bold;
+  border-bottom: #6CC6C4 solid 1px;
+  color: #6CC6C4;
+}
+
+.second-content a {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.contents {
+  background-color: white;
+  padding: 20px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: #6CC6C4 solid 2px;
+}
+
+.news dl {
+	margin: 0 0 15px;
+	padding: 0 10px 10px;
+}
+
+.news dl dt {
+	float: left;
+	width: 11em;
+  padding: 10px 0;
+  font-size: 13px;
+	font-weight: bold;
+	line-height: 150%;
+	margin:0;
+}
+.news dl dd {
+	margin:0;
+	padding: 10px 10px 10px 11em;
+	line-height: 150%;
+  border-bottom: 1px #CCCCCC dotted;
+  font-size: 13px;
+}
+
+footer {
+  margin:0px 260px;
+}
+
+.footer-menu ul {
+  padding: 0 0 0 15px;
+  width: 50vw;
+}
+
+.footer-menu li {
+  float: left;
+  border: #6CC6C4 solid 1px;
+  background-color: #71C9C7;
+  text-shadow: 1px 1px 2px #6CC6C4;
+  padding: 0 20px 0 25px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer-content {
+  width:  130vh;
+  font-size: 13px;
+  text-align: right;
+}
