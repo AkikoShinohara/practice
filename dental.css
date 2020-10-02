@@ -212,25 +212,35 @@ footer {
   margin:0px 260px;
 }
 
+
 .footer-menu ul {
-  padding: 0 0 0 15px;
-  width: 50vw;
+  width: 920px;
+  display: flex;
+  background-color: #71C9C7;
+  border-radius: 6px;
+  height: 27px;
 }
 
 .footer-menu li {
-  float: left;
-  border: #6CC6C4 solid 1px;
-  background-color: #71C9C7;
+  border: #6CC6C4 solid 1px; 
   text-shadow: 1px 1px 2px #6CC6C4;
   padding: 0 20px 0 25px;
 }
 
-.footer a {
+.footer-menu a {
   color: white;
 }
 
+
 .footer-content {
-  width:  130vh;
+  border-bottom: #6CC6C4 solid 2px;
+  /* width:  130vh; */
   font-size: 13px;
   text-align: right;
+}
+
+.footer-wrapper {
+  font-size: 12px;
+  padding: 10px 0;
+  text-align: center;
 }
